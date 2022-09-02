@@ -15,13 +15,13 @@ struct MeetingView: View {
                 VStack(alignment: .leading) {
                     Text("Seconds Elapsed")
                         .font(.caption)
-                    Label("600", systemImage: "hourglass.tophalf.fill")
+                    Label("300", systemImage: "hourglass.bottomhalf.fill")
                 }
                 Spacer()
                 VStack(alignment: .trailing) {
-                    Text("Seconds Remaning")
+                    Text("Seconds Remaining")
                         .font(.caption)
-                    Label("300", systemImage: "hourglass.bottomhalf.fill")
+                    Label("600", systemImage: "hourglass.tophalf.fill")
                 }
             }
             .accessibilityElement(children: .ignore)
