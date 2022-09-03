@@ -16,6 +16,7 @@
 		60B23A6C28BD46500075C3E0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B23A6B28BD46500075C3E0 /* CardView.swift */; };
 		60B4E95228C25F5F00FF80FA /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4E95128C25F5E00FF80FA /* TrailingIconLabelStyle.swift */; };
 		60B4E95428C27B0700FF80FA /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4E95328C27B0700FF80FA /* ScrumsView.swift */; };
+		60BBBDFF28C2A1AC00DCF7FE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBBDFE28C2A1AC00DCF7FE /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		60B4E95328C27B0700FF80FA /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		60BBBDFB28C2882300DCF7FE /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 		60BBBDFD28C2886B00DCF7FE /* LICENSE.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LICENSE.xcconfig; sourceTree = "<group>"; };
+		60BBBDFE28C2A1AC00DCF7FE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				60A63D6C28BBF03600DA7F0D /* MeetingView.swift */,
 				60B4E95328C27B0700FF80FA /* ScrumsView.swift */,
 				60B4E95128C25F5E00FF80FA /* TrailingIconLabelStyle.swift */,
+				60BBBDFE28C2A1AC00DCF7FE /* DetailView.swift */,
 				60A63D6E28BBF03700DA7F0D /* Assets.xcassets */,
 				60A63D7028BBF03700DA7F0D /* Preview Content */,
 			);
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B23A6A28BD45CB0075C3E0 /* DailyScrum.swift in Sources */,
+				60BBBDFF28C2A1AC00DCF7FE /* DetailView.swift in Sources */,
 				60B4E95228C25F5F00FF80FA /* TrailingIconLabelStyle.swift in Sources */,
 				60B23A6828BCD0370075C3E0 /* Theme.swift in Sources */,
 				60B4E95428C27B0700FF80FA /* ScrumsView.swift in Sources */,
@@ -365,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -419,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
